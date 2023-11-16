@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Card from '../lib/components/card.svelte';
+    import Form from '../lib/components/form.svelte';
+</script>
+
+<h1>fibre project counter</h1>
+
+<Card>
+  
+</Card>
+  <style>
+    h1{
+      margin: auto;
+      text-align: center;
+    }
+  </style>

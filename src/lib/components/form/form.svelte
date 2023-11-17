@@ -1,5 +1,4 @@
 <script>
-  import Form from '../form/form.js'
   import Card from '../card/card.svelte';
 </script>
 

@@ -1,14 +1,10 @@
 <script>
-import form from './form.svelte';
+  import Form from "../form/form.svelte";
 </script>
 
 <article class="card">
-  <h2>Project Name:</h2>
-  <h2>Project Type:</h2>
-  <h3>Knit</h3>
-  <h3>Crochet</h3>
-  <h2>Rows to Complete</h2>
-  <h2>Rows Completed</h2>
+  <h1 id="name">Fibre project counter</h1>
+ <Form></Form>
   </article>
   
   <style>
@@ -23,4 +19,11 @@ import form from './form.svelte';
   background-color: lightgray;
   position: relative;
   }
+
+h1{
+ font-size: 30px; 
+ margin: auto;
+ text-align: center;
+   }
+
   </style>
